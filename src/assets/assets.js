@@ -39,15 +39,30 @@ import food_27 from './food_27.png'
 import food_28 from './food_28.png'
 import food_29 from './food_29.png'
 import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
+import add_icon_white from './add_icon_white.png'
+import remove_icon_red from './remove_icon_red.png'
+import add_icon_green from './add_icon_green.png'
+import rating_starts from './rating_starts.png'
+import facebook_icon from './facebook_icon.png'
+import linkedin_icon from './linkedin_icon.png'
+import twitter_icon from './twitter_icon.png'
+
 
 
 export const assets = {
 
     logo,
     search_icon,
-    basket_icon
+    basket_icon,
+    add_icon_white,
+    remove_icon_red,
+    add_icon_green,
+    rating_starts,
+    facebook_icon,
+    linkedin_icon,
+    twitter_icon
+
+
 }
 
 
@@ -303,20 +318,6 @@ export const menu_list = [
             food_name: "Veg Noodles",
             food_image: food_30,
             food_price: 12,
-            food_desc: "Food provides essential nutrients for overall health and well-being",
-            food_category: "Noodles"
-        }, {
-            food_id: 31,
-            food_name: "Somen Noodles",
-            food_image: food_31,
-            food_price: 20,
-            food_desc: "Food provides essential nutrients for overall health and well-being",
-            food_category: "Noodles"
-        }, {
-            food_id: 32,
-            food_name: "Cooked Noodles",
-            food_image: food_32,
-            food_price: 15,
             food_desc: "Food provides essential nutrients for overall health and well-being",
             food_category: "Noodles"
         }
