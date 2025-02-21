@@ -7,7 +7,7 @@ const Menu = ({category,setCategory}) => {
     const {menu_list} = useContext(StoreContext);
   return (
     <div className='menu' id='menu'>
-    <h1>Explore our menu</h1>
+    <h1>Our menu</h1>
     <p className='menu-text'>Explore our diverse menu filled with mouthwatering dishes crafted to delight your taste buds. Our goal is to satisfy your cravings and make every meal a memorable experience.</p>
     <div className="menu-list">
       {menu_list.map((item,index)=>{

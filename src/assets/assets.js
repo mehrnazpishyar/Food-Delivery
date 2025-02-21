@@ -48,6 +48,7 @@ import linkedin_icon from './linkedin_icon.png'
 import twitter_icon from './twitter_icon.png'
 import play_store from './play_store.png'
 import app_store from './app_store.png'
+import cross_icon from './cross_icon.png'
 
 
 
@@ -64,7 +65,8 @@ export const assets = {
     linkedin_icon,
     twitter_icon,
     play_store,
-    app_store
+    app_store,
+    cross_icon
 
 
 
