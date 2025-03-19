@@ -7,6 +7,6 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 4173, 
-    allowedHosts: ['food-delivery-crp0.onrender.com'], 
+    allowedHosts: ['food-delivery-wzb6.onrender.com'], 
   },
 })
