@@ -25,7 +25,7 @@
     color: white;
     font-size: 1vw;
 }
-.header-contents button{
+.header-contents a{
     border: none;
     color: #ffffff;
     font-weight: 500;
@@ -36,7 +36,7 @@
     cursor: pointer;
 }
 
-.header-contents button:hover{
+.header-contents a:hover{
     color: tomato; 
     background: white;
 }

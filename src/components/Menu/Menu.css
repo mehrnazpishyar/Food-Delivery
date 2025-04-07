@@ -52,3 +52,26 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 768px) {
+    .menu-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow-x: unset;
+    }
+  
+    .menu-list-item {
+      flex: 1 1 30%;
+      min-width: 100px;
+    }
+  
+    .menu-list-item img {
+      width: 60px;
+      min-width: 60px;
+    }
+  
+    .menu-list-item p {
+      font-size: 14px;
+    }
+  }
+  
